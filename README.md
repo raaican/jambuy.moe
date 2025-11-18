@@ -1,15 +1,9 @@
-# Elysia with Bun runtime
+# Elysia x jambuy.moe
 
-## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
+## Current State
+Boiler plate
 
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
-
-Open http://localhost:3000/ with your browser to see the result.
+## To Do
+Design
+Jikan API
+Database
