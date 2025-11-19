@@ -6,13 +6,23 @@
     <title>Elysia + Tailwind v4</title>
     <link rel="stylesheet" href="/output.css" />
   </head>
-
-  <body
-    class="bg-white dark:bg-gray-800 min-h-screen flex items-center justify-center"
-  >
-    <div class="bg-gray-900 p-8 rounded-2xl shadow-xl text-center">
-      <h1 class="text-2xl font-bold text-blue-600">ElysiaJS + Tailwind 4</h1>
-      <p class="text-red-700 mt-2">TailwindCSS is working correctly!</p>
+  <body>
+    <nav class="sticky top-[1px] z-50 bg-slate-500 text-left border border-border p-2 px-2 rounded-lg shadow-xl my-2 mx-2 backdrop-blur bg-opacity-0">
+  <div class="flex items-center gap-1 justify-between w-full">
+    <Link to="/" class="flex items-center gap-1 text-blue-300">
+    <span class="font-bold text-green-400">moe</span>
+    <span class="font-bold text-green-400">moe2</span>
+    </Link>
+    <div class="flex items-center gap-3">
+      <Link to="/" class="hover:underline">
+      <span>moe3</span>
+      <span>moe4</span>
+      </Link>
+      <Link>
+      <span class="right-0">moe5</span>
+      </Link>
     </div>
+  </div>
+</nav>
   </body>
 </html>

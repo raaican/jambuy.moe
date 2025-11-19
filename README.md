@@ -2,6 +2,7 @@
 
 ## Current State
 Boiler plate
+Navbar boiler plate
 
 ## To Do
 Design
